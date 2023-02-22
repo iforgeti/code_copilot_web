@@ -10,6 +10,10 @@ First, we may write code to add \n and space to result if they find ':' but it s
 
 This time, I try use \n and space token to train model ( just to see if it can learn about spacing and new line too ). 
 
+## review
+
+ I write code if push spacebar or enter user text will send to model and give list of predict output to rightside.
+
 ![image](https://user-images.githubusercontent.com/78832408/220660554-346a3e93-73cd-45ad-959c-2a4c75c097f8.png)
 
 
