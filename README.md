@@ -10,7 +10,7 @@ First, we may write code to add \n and space to result if they find ':' but it s
 
 This time, I try use \n and space token to train model ( just to see if it can learn about spacing and new line too ). 
 
-![image](https://user-images.githubusercontent.com/78832408/220660240-881b23fb-e9e9-4d7a-883e-d2831e867da0.png)
+![image](https://user-images.githubusercontent.com/78832408/220660554-346a3e93-73cd-45ad-959c-2a4c75c097f8.png)
 
 
 
@@ -23,6 +23,6 @@ In summary
  
  - maybe i should save model at last epoch to compare with best weight.
  
- - * I can't upload dataset because it too large
+ - I can't upload weight model because it too large
  
 
