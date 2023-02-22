@@ -8,13 +8,21 @@ Since the dataset is too large, I split a little data from all dataset.In python
 
 First, we may write code to add \n and space to result if they find ':' but it still hard. Second, just tokenize \n and space which spacy seem can do that.
 
-This time, I try use \n and space token to train model (just to see if it can learn about spacing and new line too).
+This time, I try use \n and space token to train model ( just to see if it can learn about spacing and new line too ). 
+
+![image](https://user-images.githubusercontent.com/78832408/220660240-881b23fb-e9e9-4d7a-883e-d2831e867da0.png)
 
 
 
 
 In summary
 
- - i think using \n and space is not so good idea because vocab size will be a lot bigger.
+ - i think using \n and space may not be a good idea because vocab size will be a lot bigger.
  
  - we may clean data first to improve model.  
+ 
+ - maybe i should save model at last epoch to compare with best weight.
+ 
+ - * I can't upload dataset because it too large
+ 
+
