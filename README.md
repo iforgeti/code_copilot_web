@@ -21,7 +21,7 @@ This time, I try use \n and space token to train model ( just to see if it can l
 
 In summary
 
- - i think using \n and space may not be a good idea because vocab size will be a lot bigger.
+ - i think using spacy en_core_web_sm may not be a good idea because vocab size will be a lot bigger, or maybe we have to work on preprocess more like clean dataset ..
  
  - we may clean data first to improve model.  
  
